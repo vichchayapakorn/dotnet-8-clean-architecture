@@ -1,0 +1,13 @@
+D:\Repositoris\Tests\dotnet-starter-kit\src\Core\Shared\bin\Debug\net7.0\FSH.WebApi.Shared.xml
+D:\Repositoris\Tests\dotnet-starter-kit\src\Core\Shared\bin\Debug\net7.0\FSH.WebApi.Shared.deps.json
+D:\Repositoris\Tests\dotnet-starter-kit\src\Core\Shared\bin\Debug\net7.0\FSH.WebApi.Shared.dll
+D:\Repositoris\Tests\dotnet-starter-kit\src\Core\Shared\bin\Debug\net7.0\FSH.WebApi.Shared.pdb
+D:\Repositoris\Tests\dotnet-starter-kit\src\Core\Shared\obj\Debug\net7.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositoris\Tests\dotnet-starter-kit\src\Core\Shared\obj\Debug\net7.0\Shared.AssemblyInfoInputs.cache
+D:\Repositoris\Tests\dotnet-starter-kit\src\Core\Shared\obj\Debug\net7.0\Shared.AssemblyInfo.cs
+D:\Repositoris\Tests\dotnet-starter-kit\src\Core\Shared\obj\Debug\net7.0\Shared.csproj.CoreCompileInputs.cache
+D:\Repositoris\Tests\dotnet-starter-kit\src\Core\Shared\obj\Debug\net7.0\Shared.sourcelink.json
+D:\Repositoris\Tests\dotnet-starter-kit\src\Core\Shared\obj\Debug\net7.0\FSH.WebApi.Shared.dll
+D:\Repositoris\Tests\dotnet-starter-kit\src\Core\Shared\obj\Debug\net7.0\refint\FSH.WebApi.Shared.dll
+D:\Repositoris\Tests\dotnet-starter-kit\src\Core\Shared\obj\Debug\net7.0\FSH.WebApi.Shared.pdb
+D:\Repositoris\Tests\dotnet-starter-kit\src\Core\Shared\obj\Debug\net7.0\ref\FSH.WebApi.Shared.dll

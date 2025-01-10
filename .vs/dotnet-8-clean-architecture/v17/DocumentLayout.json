@@ -1,7 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Repositoris\\Tests\\dotnet-8-clean-architecture\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\src\\Domain\\Events\\TodoItemCreatedEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Domain\\Events\\TodoItemCreatedEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\src\\Domain\\Common\\BaseEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Domain\\Common\\BaseEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\src\\Application\\Common\\Behaviours\\LoggingBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Application\\Common\\Behaviours\\LoggingBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +31,43 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodoItemCreatedEvent.cs",
+              "DocumentMoniker": "D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\src\\Domain\\Events\\TodoItemCreatedEvent.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Events\\TodoItemCreatedEvent.cs",
+              "ToolTip": "D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\src\\Domain\\Events\\TodoItemCreatedEvent.cs",
+              "RelativeToolTip": "src\\Domain\\Events\\TodoItemCreatedEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T09:48:23.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseEvent.cs",
+              "DocumentMoniker": "D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\src\\Domain\\Common\\BaseEvent.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Common\\BaseEvent.cs",
+              "ToolTip": "D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\src\\Domain\\Common\\BaseEvent.cs",
+              "RelativeToolTip": "src\\Domain\\Common\\BaseEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T09:48:15.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoggingBehaviour.cs",
+              "DocumentMoniker": "D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\src\\Application\\Common\\Behaviours\\LoggingBehaviour.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Common\\Behaviours\\LoggingBehaviour.cs",
+              "ToolTip": "D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\src\\Application\\Common\\Behaviours\\LoggingBehaviour.cs",
+              "RelativeToolTip": "src\\Application\\Common\\Behaviours\\LoggingBehaviour.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T09:48:03.873Z"
             }
           ]
         },
@@ -27,7 +77,23 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }
