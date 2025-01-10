@@ -6,3 +6,9 @@
 /dotnet-8-clean-architecture/obj/Debug/net8.0/dotnet-8-clean-architecture.AssemblyInfoInputs.cache
 .vs/
 /src/Core/Application/obj/Debug/net8.0
+/src/Core/Application/bin
+/src/Core/Application/obj
+/src/Core/Domain/bin
+/src/Core/Domain/obj
+/src/Core/Shared/obj
+/src/Core/Shared/bin
