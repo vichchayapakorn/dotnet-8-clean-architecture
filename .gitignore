@@ -12,3 +12,5 @@
 /src/Core/Domain/obj
 /src/Core/Shared/obj
 /src/Core/Shared/bin
+/.vs/dotnet-8-clean-architecture/v17/.suo
+/.vs/dotnet-8-clean-architecture/v17/DocumentLayout.json
