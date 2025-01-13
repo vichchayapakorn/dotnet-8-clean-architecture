@@ -1,3 +1,4 @@
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using MassTransit;
 
@@ -14,4 +15,5 @@ public abstract class BaseEntity<TId> : IEntity<TId>
 
     [NotMapped]
     public List<DomainEvent> DomainEvents { get; } = new();
+
 }

@@ -1,4 +1,6 @@
-﻿namespace FSH.WebApi.Domain.Common.Contracts;
+﻿using System.Collections.Generic;
+
+namespace FSH.WebApi.Domain.Common.Contracts;
 
 public interface IEntity
 {

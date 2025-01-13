@@ -1,11 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
-        <RootNamespace>FSH.WebApi.Shared</RootNamespace>
-        <AssemblyName>FSH.WebApi.Shared</AssemblyName>
+        <RootNamespace>Dotnet.WebApi.Shared</RootNamespace>
+        <AssemblyName>Dotnet.WebApi.Shared</AssemblyName>
     </PropertyGroup>
     <ItemGroup>
-      <PackageReference Update="Roslynator.Analyzers" Version="4.2.0">
+      <PackageReference Include="Roslynator.Analyzers" />
+      <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Update="Roslynator.Analyzers" Version="4.12.10">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>

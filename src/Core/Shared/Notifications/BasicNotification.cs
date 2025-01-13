@@ -7,9 +7,10 @@ public class BasicNotification : INotificationMessage
         Information,
         Success,
         Warning,
-        Error
+        Error,
     }
 
     public string? Message { get; set; }
+
     public LabelType Label { get; set; }
 }
