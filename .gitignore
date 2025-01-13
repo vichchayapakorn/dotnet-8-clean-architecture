@@ -14,3 +14,6 @@
 /src/Core/Shared/bin
 /.vs/dotnet-8-clean-architecture/v17/.suo
 /.vs/dotnet-8-clean-architecture/v17/DocumentLayout.json
+/dotnet-8-clean-architecture/obj/Debug/net8.0/dotnet-8-clean-architecture.AssemblyInfo.cs
+/dotnet-8-clean-architecture/obj/Debug/net8.0/dotnet-8-clean-architecture.assets.cache
+/dotnet-8-clean-architecture/obj/Debug/net8.0/dotnet-8-clean-architecture.GeneratedMSBuildEditorConfig.editorconfig
