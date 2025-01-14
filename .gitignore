@@ -17,3 +17,11 @@
 /dotnet-8-clean-architecture/obj/Debug/net8.0/dotnet-8-clean-architecture.AssemblyInfo.cs
 /dotnet-8-clean-architecture/obj/Debug/net8.0/dotnet-8-clean-architecture.assets.cache
 /dotnet-8-clean-architecture/obj/Debug/net8.0/dotnet-8-clean-architecture.GeneratedMSBuildEditorConfig.editorconfig
+/src/Infrastructure/bin/Debug/net8.0
+/src/Infrastructure/obj/Debug/net8.0/ref/FSH.WebApi.Infrastructure.dll
+/src/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json
+/src/Infrastructure/obj/Infrastructure2.csproj.nuget.dgspec.json
+/src/Infrastructure/obj/Infrastructure2.csproj.nuget.g.props
+/src/Infrastructure/obj/Infrastructure2.csproj.nuget.g.targets
+/src/Infrastructure/obj/project.assets.json
+/src/Infrastructure/obj/project.nuget.cache
