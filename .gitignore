@@ -53,3 +53,5 @@
 /src/Infarstructures/Infrastructure_Pasistence/obj
 
 /src/Presentations/Host_Pasistence/obj/Release/net8.0
+/src/Presentations/Host_Pasistence/bin
+/src/Presentations/Host_Pasistence/obj
