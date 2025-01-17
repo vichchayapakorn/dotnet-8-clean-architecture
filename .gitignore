@@ -33,5 +33,14 @@
 /src/Presentations/Host/bin
 /dotnet-8-clean-architecture/bin/Debug/net8.0
 /dotnet-8-clean-architecture/obj/Debug/net8.0
+/src/CoreLibrarys/Application/obj/Debug/net8.0
+/src/CoreLibrarys/Application/bin
+/src/CoreLibrarys/Application/obj
+/src/CoreLibrarys/Domain/bin
+/src/CoreLibrarys/Domain/obj
+/src/CoreLibrarys/Shared/obj
+/src/CoreLibrarys/Shared/bin
 
 .fake
+/dotnet-8-clean-architecture/obj/Release/net8.0
+/src/CoreLibrarys/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
