@@ -33,3 +33,5 @@
 /src/Presentations/Host/bin
 /dotnet-8-clean-architecture/bin/Debug/net8.0
 /dotnet-8-clean-architecture/obj/Debug/net8.0
+
+.fake

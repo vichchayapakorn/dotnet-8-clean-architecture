@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y4/gkFKSWHKo5sXZ++CVHvpjgHb+aOxMBpWpw6bYv/GPr6vs/0yAMSD9dyuLwT8Eefyf0y75qGazqwElH74KQQ==",
+  "success": true,
+  "projectFilePath": "D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\src\\Core\\Shared\\Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VDoungbantao\\.nuget\\packages\\roslynator.analyzers\\4.12.10\\roslynator.analyzers.4.12.10.nupkg.sha512",
+    "C:\\Users\\VDoungbantao\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\VDoungbantao\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512"
+  ],
+  "logs": []
+}

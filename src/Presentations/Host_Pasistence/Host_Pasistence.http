@@ -1,0 +1,6 @@
+@Host_Pasistence_HostAddress = http://localhost:5147
+
+GET {{Host_Pasistence_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

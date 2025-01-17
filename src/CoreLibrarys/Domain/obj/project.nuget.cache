@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "2f40lr7ajfI6EvxNpbA2W6PsDBhPMA9QLCG0wpKRIbu6dpkBjj0JFdVx8jDLCdyEvWOXRZi7OB7GPYLVzZRsXA==",
+  "success": true,
+  "projectFilePath": "D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\src\\Core\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VDoungbantao\\.nuget\\packages\\newid\\4.0.1\\newid.4.0.1.nupkg.sha512",
+    "C:\\Users\\VDoungbantao\\.nuget\\packages\\roslynator.analyzers\\4.2.0\\roslynator.analyzers.4.2.0.nupkg.sha512",
+    "C:\\Users\\VDoungbantao\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\VDoungbantao\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512"
+  ],
+  "logs": []
+}

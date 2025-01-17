@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Host_Pasistence.props" />
+</Project>
