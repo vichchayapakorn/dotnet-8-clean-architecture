@@ -505,28 +505,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\VDoungbantao\\.nuget\\packages\\": {}
+    "/Users/vichcha/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\dotnet-8-clean-architecture\\dotnet-8-clean-architecture.csproj",
+      "projectUniqueName": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/dotnet-8-clean-architecture/dotnet-8-clean-architecture.csproj",
       "projectName": "dotnet-8-clean-architecture",
-      "projectPath": "D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\dotnet-8-clean-architecture\\dotnet-8-clean-architecture.csproj",
-      "packagesPath": "C:\\Users\\VDoungbantao\\.nuget\\packages\\",
-      "outputPath": "D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\dotnet-8-clean-architecture\\obj\\",
+      "projectPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/dotnet-8-clean-architecture/dotnet-8-clean-architecture.csproj",
+      "packagesPath": "/Users/vichcha/.nuget/packages/",
+      "outputPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/dotnet-8-clean-architecture/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\VDoungbantao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/vichcha/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -543,8 +539,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -578,6 +575,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -586,7 +597,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

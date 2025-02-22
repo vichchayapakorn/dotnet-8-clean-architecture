@@ -1,18 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "8MmUj51goOtvmTdYc48r7/avmMOnzUFqBTZmRg2+p/UdyhdcTq+cv1rjxpT7Z8g1/ZXjfP9xx3efKKf7tMbpPg==",
+  "dgSpecHash": "10S9ynGDxPI=",
   "success": true,
-  "projectFilePath": "D:\\Repositoris\\ForMe\\Dotnet8\\dotnet-8-clean-architecture\\dotnet-8-clean-architecture\\dotnet-8-clean-architecture.csproj",
+  "projectFilePath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/dotnet-8-clean-architecture/dotnet-8-clean-architecture.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\VDoungbantao\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\VDoungbantao\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\VDoungbantao\\.nuget\\packages\\roslynator.analyzers\\4.2.0\\roslynator.analyzers.4.2.0.nupkg.sha512",
-    "C:\\Users\\VDoungbantao\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
-    "C:\\Users\\VDoungbantao\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512",
-    "C:\\Users\\VDoungbantao\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "C:\\Users\\VDoungbantao\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "C:\\Users\\VDoungbantao\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\VDoungbantao\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "/Users/vichcha/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/vichcha/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/vichcha/.nuget/packages/roslynator.analyzers/4.2.0/roslynator.analyzers.4.2.0.nupkg.sha512",
+    "/Users/vichcha/.nuget/packages/stylecop.analyzers/1.2.0-beta.435/stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "/Users/vichcha/.nuget/packages/stylecop.analyzers.unstable/1.2.0.435/stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512",
+    "/Users/vichcha/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/vichcha/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/vichcha/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/vichcha/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "/Users/vichcha/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/vichcha/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/vichcha/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.11/microsoft.netcore.app.host.osx-arm64.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }
