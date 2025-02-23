@@ -1,4 +1,5 @@
 using System;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data;
@@ -6,10 +7,7 @@ namespace Infrastructure.Data;
 public class OrderDbContext: DbContext
     {
         // Constructor รับ DbContextOptions
-        public OrderDbContext(DbContextOptions<OrderDbContext> options)
-            : base(options)
-        {
-        }
+        public OrderDbContext(DbContextOptions<OrderDbContext> options): base(options) { }
 
         // DbSet สำหรับ Order
         public DbSet<Order> Orders { get; set; }
@@ -20,9 +18,8 @@ public class OrderDbContext: DbContext
             if (!optionsBuilder.IsConfigured)
             {
                 // แก้ไข connection string ให้ตรงกับการตั้งค่าของคุณ
-                optionsBuilder.UseSqlServer("Server=ocalhost;initial catalog=DataCleanArchitecture;user id=sa;password=P@ssw@rd;TrustServerCertificate=True;multipleactiveresultsets=True;");
+                optionsBuilder.UseSqlServer("Server=localhost;initial catalog=DataCleanArchitecture;user id=sa;password=P@ssw@rd;TrustServerCertificate=True;multipleactiveresultsets=True;");
             }
-           
         }
 
         // กำหนดการตั้งค่าของ entity เพิ่มเติม (Optional)
@@ -45,12 +42,4 @@ public class OrderDbContext: DbContext
             });
         }
     }
-
-    public class Order
-    {
-        public int OrderId { get; set; }              // รหัสการสั่งซื้อ (Primary Key)
-        public string CustomerName { get; set; }      // ชื่อลูกค้า
-        public DateTime OrderDate { get; set; }       // วันที่สั่งซื้อ
-        public decimal TotalAmount { get; set; }      // ยอดรวมของการสั่งซื้อ
-        // เพิ่ม Property อื่น ๆ ตามที่ต้องการ
-    }
+ 

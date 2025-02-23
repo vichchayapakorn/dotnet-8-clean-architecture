@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Infrastructure_Pasistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8e338e267a46871ad03f86ca0c8a4236fcc58fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb825dc9dd3ff068e328b84c3fd6fc5084e6f9a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Infrastructure_Pasistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Infrastructure_Pasistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

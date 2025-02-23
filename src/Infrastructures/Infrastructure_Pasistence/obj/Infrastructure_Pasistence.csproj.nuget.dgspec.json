@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/Infarstructures/Infrastructure_Pasistence/Infrastructure_Pasistence.csproj": {}
+    "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/Infrastructures/Infrastructure_Pasistence/Infrastructure_Pasistence.csproj": {}
   },
   "projects": {
-    "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/Infarstructures/Infrastructure_Pasistence/Infrastructure_Pasistence.csproj": {
+    "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/Infrastructures/Infrastructure_Pasistence/Infrastructure_Pasistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/Infarstructures/Infrastructure_Pasistence/Infrastructure_Pasistence.csproj",
+        "projectUniqueName": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/Infrastructures/Infrastructure_Pasistence/Infrastructure_Pasistence.csproj",
         "projectName": "Infrastructure_Pasistence",
-        "projectPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/Infarstructures/Infrastructure_Pasistence/Infrastructure_Pasistence.csproj",
+        "projectPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/Infrastructures/Infrastructure_Pasistence/Infrastructure_Pasistence.csproj",
         "packagesPath": "/Users/vichcha/.nuget/packages/",
-        "outputPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/Infarstructures/Infrastructure_Pasistence/obj/",
+        "outputPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/Infrastructures/Infrastructure_Pasistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vichcha/.nuget/NuGet/NuGet.Config"

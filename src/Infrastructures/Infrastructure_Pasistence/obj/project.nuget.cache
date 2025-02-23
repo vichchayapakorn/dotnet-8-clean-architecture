@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DJUIgVANmD4=",
+  "dgSpecHash": "Alj1aujUC/U=",
   "success": true,
-  "projectFilePath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/Infarstructures/Infrastructure_Pasistence/Infrastructure_Pasistence.csproj",
+  "projectFilePath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/Infrastructures/Infrastructure_Pasistence/Infrastructure_Pasistence.csproj",
   "expectedPackageFiles": [
     "/Users/vichcha/.nuget/packages/ardalis.specification/8.0.0/ardalis.specification.8.0.0.nupkg.sha512",
     "/Users/vichcha/.nuget/packages/ardalis.specification.entityframeworkcore/8.0.0/ardalis.specification.entityframeworkcore.8.0.0.nupkg.sha512",

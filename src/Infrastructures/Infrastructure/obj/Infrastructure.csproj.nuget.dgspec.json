@@ -4,6 +4,294 @@
     "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/Infrastructures/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
+    "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Application/Application.csproj",
+        "projectName": "FSH.WebApi.Application",
+        "projectPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Application/Application.csproj",
+        "packagesPath": "/Users/vichcha/.nuget/packages/",
+        "outputPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vichcha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Domain/Domain.csproj": {
+                "projectPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Domain/Domain.csproj"
+              },
+              "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Shared/Shared.csproj": {
+                "projectPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Domain/Domain.csproj",
+        "projectName": "FSH.WebApi.Domain",
+        "projectPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Domain/Domain.csproj",
+        "packagesPath": "/Users/vichcha/.nuget/packages/",
+        "outputPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vichcha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Shared/Shared.csproj": {
+                "projectPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "NewId": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Shared/Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Shared/Shared.csproj",
+        "projectName": "Dotnet.WebApi.Shared",
+        "projectPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Shared/Shared.csproj",
+        "packagesPath": "/Users/vichcha/.nuget/packages/",
+        "outputPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vichcha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.12.10, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/Infrastructures/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +313,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Application/Application.csproj": {
+                "projectPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Application/Application.csproj"
+              },
+              "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Domain/Domain.csproj": {
+                "projectPath": "/Users/vichcha/Programming/Dotnet/dotnet-8-clean-architecture/src/CoreLibrarys/Domain/Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -134,7 +429,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
@@ -144,7 +439,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
