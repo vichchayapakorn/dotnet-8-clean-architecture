@@ -18,10 +18,10 @@ public class TodoItem : BaseAuditableEntity
         get => _done;
         set
         {
-            if (value && !_done)
-            {
-                AddDomainEvent(new TodoItemCompletedEvent(this));
-            }
+           //if (value && !_done)
+           //{
+           //    AddDomainEvent(new TodoItemCompletedEvent(this));
+           //}
 
             _done = value;
         }

@@ -32,6 +32,8 @@
         </None>
     </ItemGroup>
     <ItemGroup>
+        <Compile Remove="Databases\**" />
+        <Content Remove="Databases\**" />
         <Content Remove="Logs\*" />
         <None Include="Logs\*" />
     </ItemGroup>
@@ -41,21 +43,16 @@
         </None>
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="Databases\Host\" />
-    </ItemGroup>
-    <ItemGroup>
-      <ProjectReference Include="..\..\Core\Application\Application.csproj" />
-      <ProjectReference Include="..\..\Infrastructure\Infrastructure2.csproj" />
-      <ProjectReference Include="..\..\Migrators\Migrators.MSSQL\Migrators.MSSQL.csproj" />
-      <ProjectReference Include="..\..\Migrators\Migrators.MySQL\Migrators.MySQL.csproj" />
-      <ProjectReference Include="..\..\Migrators\Migrators.Oracle\Migrators.Oracle.csproj" />
-      <ProjectReference Include="..\..\Migrators\Migrators.PostgreSQL\Migrators.PostgreSQL.csproj" />
-      <ProjectReference Include="..\..\Migrators\Migrators.SqLite\Migrators.SqLite.csproj" />
+      <EmbeddedResource Remove="Databases\**" />
+      <None Remove="Databases\**" />
     </ItemGroup>
     <ItemGroup>
       <PackageReference Update="Roslynator.Analyzers" Version="4.12.10">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Controllers\" />
     </ItemGroup>
 </Project>

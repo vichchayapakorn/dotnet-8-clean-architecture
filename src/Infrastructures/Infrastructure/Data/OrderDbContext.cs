@@ -1,11 +1,12 @@
 using System;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Application.Common.Interfaces;
 
 namespace Infrastructure.Data;
 
-public class OrderDbContext: DbContext
-    {
+public class OrderDbContext: DbContext, IOrderDbContext
+{
         // Constructor รับ DbContextOptions
         public OrderDbContext(DbContextOptions<OrderDbContext> options): base(options) { }
 
