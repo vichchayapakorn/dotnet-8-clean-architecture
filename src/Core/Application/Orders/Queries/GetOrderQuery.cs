@@ -25,6 +25,16 @@ namespace Application.Orders.Queries
 
         public async Task<List<Order>> Handle(GetOrderQuery request, CancellationToken cancellationToken)
         {
+            try
+            {
+
+                var data = await _context.Orders.ToListAsync(cancellationToken);
+            }
+            catch (Exception ex)
+            {
+
+            }
+
             return await _context.Orders.ToListAsync(cancellationToken);
         }
     }
