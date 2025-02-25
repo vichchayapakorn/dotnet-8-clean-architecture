@@ -1,8 +1,5 @@
-﻿using System;
-using System.Threading;
-using Application.Common.Interfaces;
+﻿using Application.Common.Interfaces;
 using Domain.Entities;
-using MediatR;
 using Application.Orders.Events;
 
 namespace Application.Orders.Commands;

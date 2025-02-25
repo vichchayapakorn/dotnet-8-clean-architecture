@@ -60,3 +60,6 @@
 /src/Infrastructures/Infrastructure_Pasistence/obj
 /src/Infrastructures/Infrastructure/obj
 /dotnet-8-clean-architecture/obj
+/BackendQuartz/bin
+/BackendQuartz/obj
+/src/Infrastructures/Infrastructure/bin

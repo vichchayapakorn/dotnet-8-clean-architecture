@@ -11,7 +11,7 @@ namespace Infrastructure.Data
             var optionsBuilder = new DbContextOptionsBuilder<OrderDbContext>();
             // ระบุ connection string ที่ต้องการใช้ในช่วง design-time
             //optionsBuilder.UseSqlServer("data source=localhost;initial catalog=Order;user id=sa;password=P@ssw@rd;TrustServerCertificate=True;multipleactiveresultsets=True;");
-            optionsBuilder.UseSqlServer("Data Source=10.112.85.37;Initial Catalog=Order;Persist Security Info=True;User ID=dev1;Password=p@ssw0rd;Connect Timeout=10000;MultipleActiveResultSets=True;");
+            optionsBuilder.UseSqlServer("Data Source=10.112.85.37;Initial Catalog=Order;Persist Security Info=True;User ID=dev1;Password=p@ssw0rd;Connect Timeout=10000;MultipleActiveResultSets=True;  TrustServerCertificate=True;");
 
             return new OrderDbContext(optionsBuilder.Options);
         }

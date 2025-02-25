@@ -12,13 +12,13 @@ namespace Microsoft.Extensions.DependencyInjection;
 
 public static class DependencyInjection
 {
-
     public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDbContext<OrderDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
         services.AddScoped<IOrderDbContext>(provider => provider.GetRequiredService<OrderDbContext>());
         //services.AddScoped<IKafkaProducerService>(provider => provider.GetRequiredService<KafkaProducerService>());
         services.AddSingleton<IKafkaProducerService, KafkaProducerService>();
+        services.AddSingleton<IKafkaConsumerService, KafkaConsumerService>();
         //services.AddSingleton<OrderDbContext>();
 
 
